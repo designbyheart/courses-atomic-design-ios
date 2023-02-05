@@ -11,6 +11,6 @@ class TitleText: UILabel {
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         
-        self.font = UIFont(name: "Poppins-Bold", size: 24)
+        self.font = UIFont(name: "Poppins-SemiBold", size: 28)
     }
 }

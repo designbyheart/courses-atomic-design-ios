@@ -10,7 +10,7 @@ import SwiftUI
 struct SUITitleText: View {
     var text = ""
     var body: some View {
-        Text(text).font(Font.custom("Poppins-Bold", size: 24))
+        Text(text).font(Font.custom("Poppins-SemiBold", size: 28))
     }
     
     init(_ text: String = "") {
