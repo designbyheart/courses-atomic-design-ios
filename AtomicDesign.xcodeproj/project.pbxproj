@@ -96,7 +96,8 @@
 		072CEF02298E67AC00A436B8 /* AtomicDesign */ = {
 			isa = PBXGroup;
 			children = (
-				072CEF3E298E69D600A436B8 /* Atoms */,
+				072CEF45298FA10D00A436B8 /* UIKit */,
+				072CEF44298FA0FF00A436B8 /* SwiftUI */,
 				072CEF17298E67DC00A436B8 /* Fonts */,
 				072CEF03298E67AC00A436B8 /* AppDelegate.swift */,
 				072CEF05298E67AC00A436B8 /* SceneDelegate.swift */,
@@ -137,8 +138,31 @@
 		072CEF3E298E69D600A436B8 /* Atoms */ = {
 			isa = PBXGroup;
 			children = (
-				072CEF3C298E68DD00A436B8 /* TextComponent.swift */,
 				072CEF41298F9E9500A436B8 /* TitleText.swift */,
+			);
+			path = Atoms;
+			sourceTree = "<group>";
+		};
+		072CEF44298FA0FF00A436B8 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				072CEF46298FA11E00A436B8 /* Atoms */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		072CEF45298FA10D00A436B8 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				072CEF3E298E69D600A436B8 /* Atoms */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		072CEF46298FA11E00A436B8 /* Atoms */ = {
+			isa = PBXGroup;
+			children = (
+				072CEF3C298E68DD00A436B8 /* TextComponent.swift */,
 			);
 			path = Atoms;
 			sourceTree = "<group>";
