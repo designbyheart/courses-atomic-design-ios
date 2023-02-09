@@ -31,8 +31,13 @@
 		072CEF39298E68C400A436B8 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 072CEF27298E68C400A436B8 /* Poppins-BoldItalic.ttf */; };
 		072CEF3A298E68C400A436B8 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 072CEF28298E68C400A436B8 /* Poppins-MediumItalic.ttf */; };
 		072CEF3B298E68C400A436B8 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 072CEF29298E68C400A436B8 /* Poppins-LightItalic.ttf */; };
-		072CEF3D298E68DD00A436B8 /* TextComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072CEF3C298E68DD00A436B8 /* TextComponent.swift */; };
+		072CEF3D298E68DD00A436B8 /* SUITitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072CEF3C298E68DD00A436B8 /* SUITitleText.swift */; };
 		072CEF42298F9E9500A436B8 /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072CEF41298F9E9500A436B8 /* TitleText.swift */; };
+		6951FD0829956365001CAFB5 /* BodyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951FD0729956365001CAFB5 /* BodyText.swift */; };
+		6951FD0C29956519001CAFB5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951FD0B29956519001CAFB5 /* Color.swift */; };
+		6951FD0E299565A6001CAFB5 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951FD0D299565A6001CAFB5 /* Font.swift */; };
+		6951FD1029956718001CAFB5 /* SubTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951FD0F29956718001CAFB5 /* SubTitle.swift */; };
+		6951FD1229956743001CAFB5 /* SUIBodyText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6951FD1129956743001CAFB5 /* SUIBodyText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,8 +67,13 @@
 		072CEF27298E68C400A436B8 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
 		072CEF28298E68C400A436B8 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		072CEF29298E68C400A436B8 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
-		072CEF3C298E68DD00A436B8 /* TextComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextComponent.swift; sourceTree = "<group>"; };
+		072CEF3C298E68DD00A436B8 /* SUITitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUITitleText.swift; sourceTree = "<group>"; };
 		072CEF41298F9E9500A436B8 /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
+		6951FD0729956365001CAFB5 /* BodyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyText.swift; sourceTree = "<group>"; };
+		6951FD0B29956519001CAFB5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		6951FD0D299565A6001CAFB5 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		6951FD0F29956718001CAFB5 /* SubTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTitle.swift; sourceTree = "<group>"; };
+		6951FD1129956743001CAFB5 /* SUIBodyText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIBodyText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,7 @@
 		072CEF02298E67AC00A436B8 /* AtomicDesign */ = {
 			isa = PBXGroup;
 			children = (
+				6951FD0A299564FD001CAFB5 /* Constants */,
 				072CEF45298FA10D00A436B8 /* UIKit */,
 				072CEF44298FA0FF00A436B8 /* SwiftUI */,
 				072CEF17298E67DC00A436B8 /* Fonts */,
@@ -139,6 +150,8 @@
 			isa = PBXGroup;
 			children = (
 				072CEF41298F9E9500A436B8 /* TitleText.swift */,
+				6951FD0729956365001CAFB5 /* BodyText.swift */,
+				6951FD0F29956718001CAFB5 /* SubTitle.swift */,
 			);
 			path = Atoms;
 			sourceTree = "<group>";
@@ -162,9 +175,19 @@
 		072CEF46298FA11E00A436B8 /* Atoms */ = {
 			isa = PBXGroup;
 			children = (
-				072CEF3C298E68DD00A436B8 /* TextComponent.swift */,
+				072CEF3C298E68DD00A436B8 /* SUITitleText.swift */,
+				6951FD1129956743001CAFB5 /* SUIBodyText.swift */,
 			);
 			path = Atoms;
+			sourceTree = "<group>";
+		};
+		6951FD0A299564FD001CAFB5 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6951FD0B29956519001CAFB5 /* Color.swift */,
+				6951FD0D299565A6001CAFB5 /* Font.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,9 +279,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6951FD0829956365001CAFB5 /* BodyText.swift in Sources */,
+				6951FD1029956718001CAFB5 /* SubTitle.swift in Sources */,
+				6951FD1229956743001CAFB5 /* SUIBodyText.swift in Sources */,
 				072CEF08298E67AC00A436B8 /* ViewController.swift in Sources */,
+				6951FD0C29956519001CAFB5 /* Color.swift in Sources */,
 				072CEF04298E67AC00A436B8 /* AppDelegate.swift in Sources */,
-				072CEF3D298E68DD00A436B8 /* TextComponent.swift in Sources */,
+				6951FD0E299565A6001CAFB5 /* Font.swift in Sources */,
+				072CEF3D298E68DD00A436B8 /* SUITitleText.swift in Sources */,
 				072CEF06298E67AC00A436B8 /* SceneDelegate.swift in Sources */,
 				072CEF42298F9E9500A436B8 /* TitleText.swift in Sources */,
 			);
@@ -336,7 +364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -390,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
