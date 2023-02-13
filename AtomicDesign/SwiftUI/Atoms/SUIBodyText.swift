@@ -22,6 +22,6 @@ struct SUIBodyText: View {
 
 struct SUIBodyText_Previews: PreviewProvider {
     static var previews: some View {
-        SUIBodyText("Hello umorna Tico2")
+        SUIBodyText("Name")
     }
 }

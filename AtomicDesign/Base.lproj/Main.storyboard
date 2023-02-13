@@ -30,15 +30,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v64-TF-fBx" customClass="SubtitleText" customModule="AtomicDesign" customModuleProvider="target">
+                                <rect key="frame" x="10" y="787" width="373" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="kaV-ts-bAZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="3Ig-2H-9kP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v64-TF-fBx" secondAttribute="trailing" constant="10" id="7sI-fA-gCa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kaV-ts-bAZ" secondAttribute="trailing" constant="65" id="DbM-Aj-3VD"/>
                             <constraint firstItem="CfN-BA-Mhl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="OWX-ba-i0h"/>
+                            <constraint firstItem="v64-TF-fBx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="PLR-K7-cC6"/>
                             <constraint firstItem="CfN-BA-Mhl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="PWc-nu-QYq"/>
                             <constraint firstItem="kaV-ts-bAZ" firstAttribute="top" secondItem="CfN-BA-Mhl" secondAttribute="bottom" constant="40" id="Tpk-1t-DLT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="v64-TF-fBx" secondAttribute="bottom" constant="10" id="f2c-tA-3p8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CfN-BA-Mhl" secondAttribute="trailing" constant="65" id="meQ-MZ-0l8"/>
                         </constraints>
                     </view>

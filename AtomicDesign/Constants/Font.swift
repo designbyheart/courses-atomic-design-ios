@@ -17,9 +17,10 @@ extension UIFont {
         return UIFont(name: "Poppins-SemiBold", size: size)
     }
     
-    static func subTitle(_ size: CGFloat) {
-        
+    static func subtitle(_ size: CGFloat = 24) -> UIFont? {
+        return UIFont(name: "Poppins-Medium", size: size)
     }
+    
     
     static func uiFont(_ font: UIFont?) -> Font {
         guard let font = font else {
