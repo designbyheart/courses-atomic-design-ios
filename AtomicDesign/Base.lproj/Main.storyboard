@@ -37,12 +37,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAD-Lc-wa4" customClass="PillButton" customModule="AtomicDesign" customModuleProvider="target">
-                                <rect key="frame" x="10" y="300.33333333333331" width="373" height="40"/>
+                                <rect key="frame" x="154.33333333333334" y="300.33333333333331" width="84.333333333333343" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="PHQ-RN-EPb"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Test me"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7A-3k-CQq" customClass="CancelButton" customModule="AtomicDesign" customModuleProvider="target">
                                 <rect key="frame" x="10" y="350.33333333333331" width="373" height="41"/>
@@ -51,6 +51,23 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="testBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LUU-gr-NXa"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cart-01" translatesAutoresizingMaskIntoConstraints="NO" id="DWo-Ta-FDe">
+                                <rect key="frame" x="146.66666666666666" y="451.33333333333331" width="100" height="99.999999999999943"/>
+                                <color key="tintColor" systemColor="systemBrownColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="JSB-Ed-aZ1"/>
+                                    <constraint firstAttribute="height" constant="100" id="MNd-4J-d2I"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNZ-qp-TyE">
+                                <rect key="frame" x="151" y="628" width="90" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" image="cart-01"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -59,20 +76,25 @@
                             <constraint firstItem="nAD-Lc-wa4" firstAttribute="top" secondItem="kaV-ts-bAZ" secondAttribute="bottom" constant="10" id="2TB-Ga-MNK"/>
                             <constraint firstItem="kaV-ts-bAZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="3Ig-2H-9kP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v64-TF-fBx" secondAttribute="trailing" constant="10" id="7sI-fA-gCa"/>
+                            <constraint firstItem="DWo-Ta-FDe" firstAttribute="top" secondItem="J7A-3k-CQq" secondAttribute="bottom" constant="60" id="D57-0t-Efe"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kaV-ts-bAZ" secondAttribute="trailing" constant="65" id="DbM-Aj-3VD"/>
+                            <constraint firstItem="nAD-Lc-wa4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EU7-4u-8sD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="J7A-3k-CQq" secondAttribute="trailing" constant="10" id="Nws-dD-zaR"/>
                             <constraint firstItem="CfN-BA-Mhl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="OWX-ba-i0h"/>
                             <constraint firstItem="v64-TF-fBx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="PLR-K7-cC6"/>
                             <constraint firstItem="CfN-BA-Mhl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="PWc-nu-QYq"/>
                             <constraint firstItem="J7A-3k-CQq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="QK9-ZY-8et"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nAD-Lc-wa4" secondAttribute="trailing" constant="10" id="Rjb-lX-dCh"/>
                             <constraint firstItem="kaV-ts-bAZ" firstAttribute="top" secondItem="CfN-BA-Mhl" secondAttribute="bottom" constant="40" id="Tpk-1t-DLT"/>
-                            <constraint firstItem="nAD-Lc-wa4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="YUp-hC-etN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="v64-TF-fBx" secondAttribute="bottom" constant="10" id="f2c-tA-3p8"/>
                             <constraint firstItem="J7A-3k-CQq" firstAttribute="top" secondItem="nAD-Lc-wa4" secondAttribute="bottom" constant="10" id="gwK-O4-N1s"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CfN-BA-Mhl" secondAttribute="trailing" constant="65" id="meQ-MZ-0l8"/>
+                            <constraint firstItem="DWo-Ta-FDe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nzN-Ky-8gW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="icon" destination="DWo-Ta-FDe" id="mQj-um-rAk"/>
+                        <outlet property="pillTest" destination="nAD-Lc-wa4" id="FVd-K2-jTA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,8 +102,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cart-01" width="30" height="30"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
