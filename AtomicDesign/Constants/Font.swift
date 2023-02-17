@@ -21,6 +21,10 @@ extension UIFont {
         return UIFont(name: "Poppins-Medium", size: size)
     }
     
+    static func cancelButtonFont(_ size: CGFloat = 16.25) -> UIFont? {
+        return UIFont(name: "Poppins-Regular", size: size )
+    }
+    
     
     static func uiFont(_ font: UIFont?) -> Font {
         guard let font = font else {

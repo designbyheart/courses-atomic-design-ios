@@ -36,18 +36,40 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nAD-Lc-wa4" customClass="PillButton" customModule="AtomicDesign" customModuleProvider="target">
+                                <rect key="frame" x="10" y="300.33333333333331" width="373" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="PHQ-RN-EPb"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J7A-3k-CQq" customClass="CancelButton" customModule="AtomicDesign" customModuleProvider="target">
+                                <rect key="frame" x="10" y="350.33333333333331" width="373" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="VcA-tS-o3d"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="nAD-Lc-wa4" firstAttribute="top" secondItem="kaV-ts-bAZ" secondAttribute="bottom" constant="10" id="2TB-Ga-MNK"/>
                             <constraint firstItem="kaV-ts-bAZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="3Ig-2H-9kP"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="v64-TF-fBx" secondAttribute="trailing" constant="10" id="7sI-fA-gCa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kaV-ts-bAZ" secondAttribute="trailing" constant="65" id="DbM-Aj-3VD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="J7A-3k-CQq" secondAttribute="trailing" constant="10" id="Nws-dD-zaR"/>
                             <constraint firstItem="CfN-BA-Mhl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="OWX-ba-i0h"/>
                             <constraint firstItem="v64-TF-fBx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="PLR-K7-cC6"/>
                             <constraint firstItem="CfN-BA-Mhl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="PWc-nu-QYq"/>
+                            <constraint firstItem="J7A-3k-CQq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="QK9-ZY-8et"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nAD-Lc-wa4" secondAttribute="trailing" constant="10" id="Rjb-lX-dCh"/>
                             <constraint firstItem="kaV-ts-bAZ" firstAttribute="top" secondItem="CfN-BA-Mhl" secondAttribute="bottom" constant="40" id="Tpk-1t-DLT"/>
+                            <constraint firstItem="nAD-Lc-wa4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="YUp-hC-etN"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="v64-TF-fBx" secondAttribute="bottom" constant="10" id="f2c-tA-3p8"/>
+                            <constraint firstItem="J7A-3k-CQq" firstAttribute="top" secondItem="nAD-Lc-wa4" secondAttribute="bottom" constant="10" id="gwK-O4-N1s"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CfN-BA-Mhl" secondAttribute="trailing" constant="65" id="meQ-MZ-0l8"/>
                         </constraints>
                     </view>
